@@ -2,22 +2,20 @@
   body {
       font-family: 'Helvetica Now Text', sans-serif;
       width: 100%;
-      margin: 0;
+      margin: 0%;
   }
-
-
 
   .menu-icon {
       float: right;
       font-size: 40px;
-      background-color: white;
       margin-left: 70%;
+      cursor: pointer;
 
   }
 
   .logo img {
-      height: 100px;
-      width: 90px;
+      width: 6.8em;
+      height: 7em;
   }
 
   header {
@@ -36,8 +34,8 @@
       padding-left: 3.1%;
       margin-left: 0%;
       justify-content: center;
-      flex: 0;
       cursor: pointer;
+      flex: 0em;
   }
 
   nav {
@@ -49,21 +47,32 @@
       padding-top: 1.8%;
       font-size: 12px;
       text-align: center;
+      justify-content: center;
+  }
+
+
+  .main-text img {
+      margin: 0%;
+      padding-left: 17%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
   }
 
   .get-started-btn {
-      font-size: 10px;
+      font-size: 0.77em;
       text-transform: uppercase;
       text-align: center;
       margin-top: 3.5%;
       margin-left: 5%;
       margin-bottom: 5%;
-      padding: 4%;
-      border-radius: 10px;
+      padding: 2% 4%;
+      border-radius: 8px;
       color: white;
       background-color: black;
       border-style: none;
-      box-shadow: 2px 2px grey;
+      box-shadow: 0px 2px grey;
       cursor: pointer;
   }
 
@@ -128,7 +137,7 @@
       padding-top: 10%;
       padding-bottom: 10%;
       text-align: center;
-      background-color: #c2c1c1;
+      background-color: white;
   }
 
   .service-title {
@@ -152,7 +161,7 @@
       text-align: center;
       padding-top: 10%;
       padding-bottom: 10%;
-      background-color: white;
+      background-color: #e2dedefc;
   }
 
   .project-title {
@@ -166,7 +175,7 @@
       margin-left: 5%;
       margin-right: 5%;
       padding: 5%;
-      background-color: #E8E6E6;
+      background-color: white;
       border: 2px grey;
       box-shadow: 8px 8px 10px #CBC3C3;
       border-radius: 0.8em;
@@ -211,28 +220,33 @@
   .contact-form-detail {
       color: black;
       text-align: left;
+      margin-bottom: 0%;
   }
 
 
   input[type=text],
   select,
   textarea {
-      width: 90%;
-      height: 4.5%;
+      width: 100%;
+      height: 5%;
       padding: 1em;
       font-size: 0.7em;
       border: 1px solid #ccc;
       border-radius: 4px;
       box-sizing: border-box;
       margin-top: 0.8em;
-      margin-bottom: 1em;
+      margin-bottom: 0.8em;
       resize: vertical;
+  }
+
+  .submit-btn {
+      text-align: center;
   }
 
   input[type=submit] {
       background-color: #04AA6D;
       color: white;
-      margin-left: 5em;
+      margin-top: 1.5em;
       padding: 1em 2em;
       border: none;
       border-radius: 1em;
@@ -240,7 +254,8 @@
   }
 
   input[type=submit]:hover {
-      background-color: #45a049;
+      color: white;
+      background-color: black;
   }
 
   #country {
@@ -276,4 +291,283 @@
   .reserved a {
       color: white;
       text-decoration: none;
+  }
+
+  @media only screen and (min-width: 920px) {
+
+      /* for Desktop view: */
+
+      header {
+          display: flex;
+          height: 0%;
+          padding: 0%;
+          margin-top: 8%;
+          margin-bottom: 20%;
+          margin-right: 0%;
+          align-items: center;
+      }
+
+      .logo img {
+          height: 10em;
+          width: 10em;
+      }
+
+      .logo {
+          padding-left: 3.1%;
+          margin-left: 0%;
+          justify-content: center;
+          flex: 0.66;
+          cursor: pointer;
+      }
+
+      .menu-icon {
+          float: right;
+      }
+
+      .main-text {
+          padding-top: 1.8%;
+      }
+
+      .head-text {
+          text-transform: uppercase;
+          padding-left: 2%;
+          margin-left: 2%;
+          font-size: 2em;
+          font-style: normal;
+      }
+
+      .digital-head-text {
+          text-transform: uppercase;
+          margin-top: 0%;
+          padding-left: 2%;
+          margin-left: 2%;
+          font-size: 3em;
+          font-weight: bold;
+      }
+
+      .design-head-text {
+          text-transform: uppercase;
+          margin-top: -2.5%;
+          padding-left: 2%;
+          margin-left: 2%;
+          font-size: 3em;
+          font-weight: bold;
+      }
+
+      .client-text {
+          margin-top: -0.7%;
+          padding-left: 2%;
+          margin-left: 2%;
+          font-size: 1.8em;
+      }
+
+      .main-text img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+      }
+
+      .get-started-btn {
+          font-size: 1em;
+          text-transform: uppercase;
+          text-align: center;
+          margin-top: 3.5%;
+          margin-bottom: 5%;
+          padding: 2% 4%;
+          border-radius: 10px;
+          color: white;
+          background-color: black;
+          border-style: solid;
+          box-shadow: 1px 2px grey;
+          cursor: pointer;
+      }
+
+      .about-us-img {
+          height: 25%;
+          width: 50%;
+          margin-top: 5%;
+      }
+
+      .service-type-paragraph {
+          font-family: inherit;
+          font-size: 0.7em;
+          margin-right: 15%;
+          margin-left: 15%;
+      }
+
+      .completed-project {
+          margin-left: 25%;
+          margin-right: 25%;
+          padding: 3%;
+          background-color: white;
+          border: 2px grey;
+          box-shadow: 8px 8px 10px #CBC3C3;
+          border-radius: 0.8em;
+      }
+
+      .contact-form {
+          border-radius: 1em;
+          background-color: #f2f2f2;
+          margin-left: 20%;
+          margin-right: 20%;
+          padding: 2em;
+      }
+
+
+      input[type=text],
+      select,
+      textarea {
+          width: 100%;
+          height: 5%;
+          padding: 1em;
+          font-size: 0.7em;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 0.8em;
+          margin-bottom: 0.8em;
+          resize: vertical;
+      }
+
+  }
+
+  @media only screen and (min-width: 920px) {
+
+      /* for Tablet view: */
+
+      header {
+          display: flex;
+          height: 0%;
+          padding: 0%;
+          margin-top: 8%;
+          margin-bottom: 20%;
+          margin-right: 0%;
+          align-items: center;
+      }
+
+      .logo img {
+          height: 10em;
+          width: 10em;
+      }
+
+      .logo {
+          padding-left: 3.1%;
+          margin-left: 0%;
+          justify-content: center;
+          flex: 0.66;
+          cursor: pointer;
+      }
+
+      .menu-icon {
+          float: right;
+      }
+
+      .main-text {
+          padding-top: 1.8%;
+      }
+
+      .head-text {
+          text-transform: uppercase;
+          padding-left: 2%;
+          margin-left: 2%;
+          font-size: 2em;
+          font-style: normal;
+      }
+
+      .digital-head-text {
+          text-transform: uppercase;
+          margin-top: 0%;
+          padding-left: 2%;
+          margin-left: 2%;
+          font-size: 3em;
+          font-weight: bold;
+      }
+
+      .design-head-text {
+          text-transform: uppercase;
+          margin-top: -2.5%;
+          padding-left: 2%;
+          margin-left: 2%;
+          font-size: 3em;
+          font-weight: bold;
+      }
+
+      .client-text {
+          margin-top: -0.7%;
+          padding-left: 2%;
+          margin-left: 2%;
+          font-size: 1.8em;
+      }
+
+      .main-text img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+      }
+
+      .get-started-btn {
+          font-size: 1em;
+          text-transform: uppercase;
+          text-align: center;
+          margin-top: 3.5%;
+          margin-bottom: 5%;
+          padding: 2% 4%;
+          border-radius: 10px;
+          color: white;
+          background-color: black;
+          border-style: solid;
+          box-shadow: 1px 2px grey;
+          cursor: pointer;
+      }
+
+      .about-us-img {
+          height: 50%;
+          width: 45%;
+          margin-top: 5%;
+      }
+
+      .service-type-paragraph {
+          font-family: inherit;
+          font-size: 0.7em;
+          margin-right: 15%;
+          margin-left: 15%;
+      }
+
+      .completed-project {
+          margin-left: 25%;
+          margin-right: 25%;
+          padding: 3%;
+          background-color: white;
+          border: 2px grey;
+          box-shadow: 8px 8px 10px #CBC3C3;
+          border-radius: 0.8em;
+      }
+
+      .contact-form {
+          border-radius: 1em;
+          background-color: #f2f2f2;
+          margin-left: 30%;
+          margin-right: 30%;
+          padding: 2em;
+      }
+
+
+      input[type=text],
+      select,
+      textarea {
+          width: 100%;
+          height: 5%;
+          padding: em;
+          font-size: 0.7em;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 0.8em;
+          margin-bottom: 0.8em;
+          resize: vertical;
+      }
+
+
   }
