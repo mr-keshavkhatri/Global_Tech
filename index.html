@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <title>Global Tech</title>
 </head>
 
@@ -13,8 +14,12 @@
     <div class="main-img">
       <header>
         <div class="logo">
-          <img src="img/global tech.jpg" alt="Logo" height="200px" width="200px">
+          <img src="img/global tech.jpg" alt="Logo">
         </div>
+        <div class="menu-icon">
+          <i class="bi bi-three-dots-vertical"></i>
+        </div>
+
         <nav>
           <ul>
             <li class="menu-section">
@@ -43,14 +48,16 @@
         <h2 class="digital-head-text">DIGITAL PRODUCT</h2>
         <h2 class="design-head-text">DESIGN COMPANY</h2>
         <p class="client-text">The client's business challenges are our best incentives </p>
+
+        <button class="get-started-btn">LET'S GET STARTED</button>
+
       </div>
-      <button class="get-started">LET'S GET STARTED</button>
     </div>
     <div class="about-section">
       <div class="about-us">
         <h4>About Us</h4>
-        <p class="below-about">We develop softwares that fulfill <br>our client's requirement</p>
-        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>
+        <p class="about-us-text">We develop softwares that fulfill our client's requirement</p>
+        <p class="about-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut<br>
           enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
           nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br>
@@ -60,15 +67,17 @@
         <img class="about-us-img" src="img/about us.jpg" alt="about">
       </div>
       <div class="project-num">
-        <div>
-          <p class="done-project" style="font-size: 50px; font-weight: bold; margin-left: 1.3rem;">5</p>
-          <p class="done-project" style="font-size: 50px; font-weight: bold; margin-left: 1.3rem;">30+</p>
-          <p class="done-project" style="font-size: 50px; font-weight: bold; margin-left: 1.3rem;">70+</p>
+        <div class="survey-1">
+          <p>5</p>
+          <p>offices</p>
         </div>
-        <div>
-          <p class="below-done-project" style="font-size: 20px; text-transform: uppercase;">offices</p>
-          <p class="below-done-project" style="font-size: 20px; text-transform: uppercase;">employees</p>
-          <p class="below-done-project" style="font-size: 20px; text-transform: uppercase;">Total client's</p>
+        <div class="survey-2">
+          <p>30+</p>
+          <p>employees</p>
+        </div>
+        <div class="survey-3">
+          <p>70+</p>
+          <p>Total client's</p>
         </div>
       </div>
     </div>
@@ -76,45 +85,90 @@
       <h4>Services</h4>
       <p class="service-title">Our company provides various kind of services to client's</p>
       <div class="skill-section">
-        <p class="ui-design">UI/UX Design</p>
-        <p class="ui-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut<br>
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br>
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <br>
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <br>
+        <p class="service-type">UI/UX Design</p>
+        <p class="service-type-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p class="ui-design">Web Development</p>
-        <p class="ui-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut<br>
-          enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br>
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla <br>
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <br>
+        <p class="service-type">Web Development</p>
+        <p class="service-type-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="service-type">Web Application</p>
+        <p class="service-type-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="service-type">Mobile Application</p>
+        <p class="service-type-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
-    <div class="mapouter">
-      <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
-          src="https://maps.google.com/maps?q=kathmandu&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-          scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br>
-        <style>
-          .mapouter {
-            position: relative;
-            text-align: right;
-            height: 500px;
-            width: 600px;
-          }
-        </style><a href="https://www.embedgooglemap.net"></a>
-        <style>
-          .gmap_canvas {
-            overflow: hidden;
-            background: none !important;
-            height: 500px;
-            width: 600px;
-          }
-        </style>
+    <div class="project-section">
+      <h4>projects</h4>
+      <p class="project-title">Our company has made different types of project for clients</p>
+      <div class="completed-project" id="company-project">
+        <p class="company-name">Ebazar Nepal and Technology</p>
+        <p class="company-category">E-Commerce</p>
       </div>
+      <div class="completed-project" id="company-project">
+        <p class="company-name">Mediequip</p>
+        <p class="company-category">Clinic</p>
+      </div>
+      <div class="completed-project" id="company-project">
+        <p class="company-name">My WorkSpace</p>
+        <p class="company-category">Portfolio</p>
+      </div>
+    </div>
+    <div class="contact-section">
+      <h4>contact us</h4>
+      <p class="contact-title">Let's get in touch</p>
+      <p class="contact-title-text">Contact us to discuss about your project and how we can help you</p>
+      <div class="contact-form">
+        <form class="contact-form-detail">
+          <label class="label-text" for="fname">First Name:</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+      
+          <label class="label-text" for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label class="label-text" for="country">Country:</label>
+          <select id="country" name="country">
+            <option value="australia">Nepal</option>
+            <option value="canada">Australia</option>
+            <option value="usa">USA</option>
+            <option value="usa">UK</option>
+          </select>
+      
+          <label class="label-text" for="subject">Subject:</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <p>+977 9866235305</p>
+      <p>keshav119.kk@gmail.com</p>
+      <p>Kathmandu, Nepal</p>
+    </div>
+    <div class="copywright">
+      <p class="reserved">All Rights Reserved By <b><a href="#">Global Tech</a></b></p>
     </div>
   </div>
 
