@@ -5,12 +5,16 @@
       margin: 0%;
   }
 
-  .menu-icon {
-      float: right;
-      font-size: 40px;
-      margin-left: 70%;
-      cursor: pointer;
+  .main-img {
+      background-image: linear-gradient(to right, grey, white);
+  }
 
+  .menu-icon {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 40px;
+      cursor: pointer;
   }
 
   .logo img {
@@ -20,18 +24,16 @@
 
   header {
       display: flex;
+      width: 0%;
       height: 0%;
-      padding: 0%;
-      margin-top: 10%;
-      margin-bottom: 20%;
-      margin-right: 0%;
+      margin-bottom: 35%;
       align-items: center;
   }
 
   .logo {
-      min-width: 10%;
-      min-height: 10%;
-      padding-left: 3.1%;
+      width: 100%;
+      height: 100%;
+      padding-left: 2%;
       margin-left: 0%;
       justify-content: center;
       cursor: pointer;
@@ -65,7 +67,7 @@
       text-transform: uppercase;
       text-align: center;
       margin-top: 3.5%;
-      margin-left: 5%;
+      margin-left: 0%;
       margin-bottom: 5%;
       padding: 2% 4%;
       border-radius: 8px;
@@ -78,7 +80,7 @@
 
   .get-started-btn:hover {
       color: black;
-      background-color: white;
+      background-color: orange;
   }
 
   h4 {
@@ -91,8 +93,7 @@
       text-align: center;
       padding-top: 10%;
       padding-bottom: 10%;
-      margin-top: 20px;
-      background-color: #e2dedefc;
+      background-color: white;
   }
 
   .about-us-text {
@@ -137,7 +138,7 @@
       padding-top: 10%;
       padding-bottom: 10%;
       text-align: center;
-      background-color: white;
+      background-color: #e2dedefc;
   }
 
   .service-title {
@@ -161,7 +162,7 @@
       text-align: center;
       padding-top: 10%;
       padding-bottom: 10%;
-      background-color: #e2dedefc;
+      background-color: white;
   }
 
   .project-title {
@@ -175,7 +176,7 @@
       margin-left: 5%;
       margin-right: 5%;
       padding: 5%;
-      background-color: white;
+      background-color: #e2dedefc;
       border: 2px grey;
       box-shadow: 8px 8px 10px #CBC3C3;
       border-radius: 0.8em;
@@ -293,15 +294,14 @@
       text-decoration: none;
   }
 
-  @media only screen and (min-width: 920px) {
+  @media only screen and (min-width: 416px) and (max-width: 920px) {
 
-      /* for Desktop view: */
+      /* for Tablet view: */
 
       header {
           display: flex;
           height: 0%;
           padding: 0%;
-          margin-top: 8%;
           margin-bottom: 20%;
           margin-right: 0%;
           align-items: center;
@@ -434,13 +434,12 @@
 
   @media only screen and (min-width: 920px) {
 
-      /* for Tablet view: */
+      /* for Desktop view: */
 
       header {
           display: flex;
           height: 0%;
           padding: 0%;
-          margin-top: 8%;
           margin-bottom: 20%;
           margin-right: 0%;
           align-items: center;
