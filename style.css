@@ -40,7 +40,7 @@
       flex: 0em;
   }
 
-  nav {
+  .topnav {
       display: none;
   }
 
@@ -308,8 +308,8 @@
       }
 
       .logo img {
-          height: 10em;
-          width: 10em;
+          height: 8em;
+          width: 8em;
       }
 
       .logo {
@@ -325,7 +325,7 @@
       }
 
       .main-text {
-          padding-top: 1.8%;
+          padding-top: 8em;
       }
 
       .head-text {
@@ -400,7 +400,7 @@
           margin-left: 25%;
           margin-right: 25%;
           padding: 3%;
-          background-color: white;
+          background-color: #e2dedefc;
           border: 2px grey;
           box-shadow: 8px 8px 10px #CBC3C3;
           border-radius: 0.8em;
@@ -436,135 +436,214 @@
 
       /* for Desktop view: */
 
+      body {
+          font-family: 'Helvetica Now Text', sans-serif;
+          width: 100%;
+          margin: 0%;
+      }
+
+      .container {
+          overflow: hidden;
+      }
+
+      .main-img {
+          width: 100%;
+         
+      }
+
       header {
           display: flex;
+          width: 0%;
           height: 0%;
-          padding: 0%;
-          margin-bottom: 20%;
-          margin-right: 0%;
-          align-items: center;
+          margin-bottom: 0%;
+          align-items: none;
+      }
+
+      .logo {
+          padding-left: 0%;
+          margin-left: 0%;
+          justify-content: center;
+          cursor: pointer;
       }
 
       .logo img {
+          
           height: 10em;
           width: 10em;
       }
 
-      .logo {
-          padding-left: 3.1%;
-          margin-left: 0%;
-          justify-content: center;
-          flex: 0.66;
-          cursor: pointer;
+      .menu-icon {
+          display: none;
       }
 
-      .menu-icon {
-          float: right;
+      .topnav {
+          display: inline-block;
+          
+      }
+      
+      ul{
+        display: flex;
+        width: 100%;
+        list-style: none;
+        margin-top: 13%;
+        margin-left: 35em;
+        padding: 10px;
+      }
+      
+      li{
+        display: inline-block;
+        font-size: 20px;
+      }
+      
+      a{
+        display: inline-block;
+        color: black;
+        padding: 20px;
+        text-decoration: none;
       }
 
       .main-text {
-          padding-top: 1.8%;
+          margin: 0%;
+          padding-top: 10%;
+          text-align: left;
       }
 
       .head-text {
           text-transform: uppercase;
           padding-left: 2%;
-          margin-left: 2%;
-          font-size: 2em;
+          margin-left: 2.5%;
+          font-size: 3.5em;
           font-style: normal;
       }
 
       .digital-head-text {
           text-transform: uppercase;
-          margin-top: 0%;
-          padding-left: 2%;
-          margin-left: 2%;
-          font-size: 3em;
+          margin-top: 2%;
+          padding-left: 2.5%;
+          margin-left: 2.5%;
+          font-size: 4em;
           font-weight: bold;
       }
 
       .design-head-text {
           text-transform: uppercase;
-          margin-top: -2.5%;
-          padding-left: 2%;
-          margin-left: 2%;
-          font-size: 3em;
+          margin-top: -2.3%;
+          padding-left: 2.5%;
+          margin-left: 2.5%;
+          font-size: 4em;
           font-weight: bold;
       }
 
       .client-text {
-          margin-top: -0.7%;
-          padding-left: 2%;
-          margin-left: 2%;
-          font-size: 1.8em;
+          margin-top: 0%;
+          padding-left: 2.5%;
+          margin-left: 2.5%;
+          font-size: 2.5em;
       }
 
       .main-text img {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          width: 50%;
+          margin-top: -17%;
+          padding-top: 0%;
+          padding-left: 40%;
+          display: flex;
+          width: 90%;
+          height: 65%;
       }
 
       .get-started-btn {
-          font-size: 1em;
           text-transform: uppercase;
-          text-align: center;
-          margin-top: 3.5%;
-          margin-bottom: 5%;
-          padding: 2% 4%;
-          border-radius: 10px;
+          margin-top: -10%;
+          margin-left: 7%;
+          font-size: 1.3em;
+          padding: 1.5% 2.5%;
           color: white;
           background-color: black;
-          border-style: solid;
-          box-shadow: 1px 2px grey;
+          border-radius: 10px;
+          border-style: none;
+          box-shadow: 2px 2px grey;
           cursor: pointer;
       }
 
+      .about-section {
+          display: inline-block;
+          text-align: left;
+          font-family: inherit;
+          padding-top: 2%;
+          padding-left: 10%;
+          background-color: white;
+      }
+
+      h4 {
+          text-transform: uppercase;
+          font-weight: 400;
+      }
+
+      .about-us-text {
+          position: absolute;
+          margin-top: 2%;
+          font-size: 1.5em;
+          font-weight: bolder;
+      }
+
+      .about-paragraph {
+          padding-top: 18%;
+          font-size: 0.9em;
+      }
+
+      .project-num {
+          display: flex;
+          font-size: 1.5em;
+          font-weight: bold;
+          margin: 0%;
+          justify-content: left;
+      }
+
+      .survey-1 {
+          margin-top: 2%;
+          margin-right: 10%;
+          float: left;
+      }
+
+      .survey-2 {
+          margin-top: 2%;
+          margin-right: 10%;
+          float: left;
+      }
+
       .about-us-img {
+          position: absolute;
+          display: inline-block;
           height: 50%;
-          width: 45%;
-          margin-top: 5%;
+          width: 38%;
+          margin-left: 43%;
+          margin-top: -12.5%;
+          margin-bottom: 0%;
+      }
+
+      .service-section {
+          padding-top: 2%;
+          text-align: center;
+          background-color: #e2dedefc;
+      }
+
+      .skill-section {
+          display: inline-block;
+      }
+
+      .service-title {
+          margin-top: 2%;
+          font-size: 1.5em;
+          font-weight: bold;
+      }
+
+      .service-type {
+          font-size: 2em;
+          font-weight: bold;
       }
 
       .service-type-paragraph {
           font-family: inherit;
-          font-size: 0.7em;
-          margin-right: 15%;
-          margin-left: 15%;
+          font-size: 0.9em;
       }
 
-      .completed-project {
-          margin-left: 25%;
-          margin-right: 25%;
-          padding: 3%;
-          background-color: white;
-          border: 2px grey;
-          box-shadow: 8px 8px 10px #CBC3C3;
-          border-radius: 0.8em;
-      }
-
-      .contact-form {
-          border-radius: 1em;
-          background-color: #f2f2f2;
-          margin-left: 30%;
-          margin-right: 30%;
-          padding: 2em;
-      }
-
-
-      input[type=text],
-      select,
-      textarea {
-          width: 100%;
-          height: 5%;
-          padding: em;
-          font-size: 0.7em;
-          border: 1px solid #ccc;
-          border-radius: 4px;
-          box-sizing: border-box;
-          margin-top: 0.8em;
-          margin-bottom: 0.8em;
-          resize: vertical;
-      }
   }
