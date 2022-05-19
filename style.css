@@ -5,6 +5,10 @@
       margin: 0%;
   }
 
+  .container {
+      margin: 0%;
+  }
+
   .main-img {
       background-image: linear-gradient(to right, grey, white);
   }
@@ -91,8 +95,8 @@
   .about-section {
       font-family: inherit;
       text-align: center;
-      padding-top: 10%;
-      padding-bottom: 10%;
+      padding-top: 2%;
+      padding-bottom: 2%;
       background-color: white;
   }
 
@@ -135,8 +139,8 @@
   }
 
   .service-section {
-      padding-top: 10%;
-      padding-bottom: 10%;
+      padding-top: 2%;
+      padding-bottom: 2%;
       text-align: center;
       background-color: #e2dedefc;
   }
@@ -160,8 +164,8 @@
   .project-section {
       font-family: inherit;
       text-align: center;
-      padding-top: 10%;
-      padding-bottom: 10%;
+      padding-top: 2%;
+      padding-bottom: 2%;
       background-color: white;
   }
 
@@ -169,12 +173,13 @@
       font-size: 1.2em;
       font-weight: bold;
       margin-top: 5%;
-      margin-bottom: 10%;
+      margin-bottom: 5%;
   }
 
   .completed-project {
       margin-left: 5%;
       margin-right: 5%;
+      margin-bottom: 5%;
       padding: 5%;
       background-color: #e2dedefc;
       border: 2px grey;
@@ -187,10 +192,6 @@
       padding: 0%;
   }
 
-  #company-project {
-      margin-bottom: 5%;
-  }
-
   .company-category {
 
       color: #747474;
@@ -199,8 +200,8 @@
   .contact-section {
       font-family: inherit;
       text-align: center;
-      padding-top: 10%;
-      padding-bottom: 10%;
+      padding-top: 2%;
+      padding-bottom: 2%;
       color: white;
       background-color: black;
   }
@@ -270,21 +271,22 @@
   .footer {
       font-family: inherit;
       font-size: 0.7em;
-      margin-top: 10%;
-      margin-bottom: 10%;
+      margin-top: 5%;
+      margin-bottom: 5%;
       text-align: center;
   }
 
   .copywright {
-      padding: 0.5%;
+      margin: 0%;
+      padding: 0%;
       font-size: 0.8em;
       color: white;
       background-color: black;
-      align-content: center;
       text-align: center;
   }
 
   .reserved {
+      margin: 0%;
       font-weight: 300;
       color: white;
   }
@@ -448,7 +450,7 @@
 
       .main-img {
           width: 100%;
-         
+
       }
 
       header {
@@ -467,7 +469,7 @@
       }
 
       .logo img {
-          
+
           height: 10em;
           width: 10em;
       }
@@ -478,28 +480,28 @@
 
       .topnav {
           display: inline-block;
-          
+
       }
-      
-      ul{
-        display: flex;
-        width: 100%;
-        list-style: none;
-        margin-top: 13%;
-        margin-left: 35em;
-        padding: 10px;
+
+      ul {
+          display: flex;
+          width: 100%;
+          list-style: none;
+          margin-top: 13%;
+          margin-left: 35em;
+          padding: 10px;
       }
-      
-      li{
-        display: inline-block;
-        font-size: 20px;
+
+      li {
+          display: inline-block;
+          font-size: 20px;
       }
-      
-      a{
-        display: inline-block;
-        color: black;
-        padding: 20px;
-        text-decoration: none;
+
+      a {
+          display: inline-block;
+          color: black;
+          padding: 20px;
+          text-decoration: none;
       }
 
       .main-text {
@@ -565,12 +567,16 @@
       }
 
       .about-section {
-          display: inline-block;
-          text-align: left;
+          text-align: center;
           font-family: inherit;
           padding-top: 2%;
-          padding-left: 10%;
           background-color: white;
+      }
+
+      .about-us {
+          float: left;
+          padding-top: 2%;
+          padding-left: 5%;
       }
 
       h4 {
@@ -579,55 +585,54 @@
       }
 
       .about-us-text {
-          position: absolute;
           margin-top: 2%;
           font-size: 1.5em;
           font-weight: bolder;
       }
 
       .about-paragraph {
-          padding-top: 18%;
           font-size: 0.9em;
       }
 
+      .about-us-img {
+          height: 35%;
+          width: 40%;
+          padding-top: 3%;
+          margin: 0%;
+      }
+
       .project-num {
+          padding-left: 8%;
+          margin-top: -10%;
+          margin-bottom: 4%;
+          text-align: center;
           display: flex;
           font-size: 1.5em;
           font-weight: bold;
-          margin: 0%;
           justify-content: left;
       }
 
       .survey-1 {
           margin-top: 2%;
-          margin-right: 10%;
+          margin-right: 5%;
           float: left;
       }
 
       .survey-2 {
           margin-top: 2%;
-          margin-right: 10%;
+          margin-right: 5%;
           float: left;
-      }
-
-      .about-us-img {
-          position: absolute;
-          display: inline-block;
-          height: 50%;
-          width: 38%;
-          margin-left: 43%;
-          margin-top: -12.5%;
-          margin-bottom: 0%;
       }
 
       .service-section {
           padding-top: 2%;
-          text-align: center;
+          padding-bottom: 2%;
+          text-align: none;
           background-color: #e2dedefc;
       }
 
       .skill-section {
-          display: inline-block;
+          display: flex;
       }
 
       .service-title {
@@ -642,8 +647,118 @@
       }
 
       .service-type-paragraph {
+          padding-left: 10%;
+          padding-right: 10%;
           font-family: inherit;
           font-size: 0.9em;
+      }
+
+      .project-section {
+          font-family: inherit;
+          text-align: center;
+          padding-top: 2%;
+          padding-bottom: 2%;
+          background-color: white;
+      }
+
+      .project-title {
+          font-size: 1.2em;
+          font-weight: bold;
+          margin-top: 2%;
+          margin-bottom: 2%;
+      }
+
+      .made-project {
+          display: flex;
+          justify-content: center;
+      }
+
+      .completed-project {
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-bottom: 2%;
+          padding: 1%;
+          background-color: #e2dedefc;
+          border: 2px grey;
+          box-shadow: 8px 8px 10px #CBC3C3;
+          border-radius: 0.8em;
+      }
+
+      .completed-project p {
+          margin: 0%;
+          padding: 0%;
+      }
+
+      #ebazarnepal {
+          padding-left: 4%;
+          padding-right: 4%;
+      }
+
+      #mediequip {
+          padding-left: 8%;
+          padding-right: 8%;
+      }
+
+      #workspace {
+          padding-left: 7%;
+          padding-right: 7%;
+      }
+
+      .contact-form {
+          border-radius: 1em;
+          background-color: #f2f2f2;
+          margin-left: 30%;
+          margin-right: 30%;
+          padding: 2em;
+      }
+
+      .contact-form-detail {
+          color: black;
+          text-align: left;
+          margin-bottom: 0%;
+      }
+
+
+      input[type=text],
+      select,
+      textarea {
+          width: 100%;
+          height: 5%;
+          padding: 1em;
+          font-size: 0.7em;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 0.8em;
+          margin-bottom: 0.8em;
+          resize: vertical;
+      }
+
+      .submit-btn {
+          text-align: center;
+      }
+
+      input[type=submit] {
+          background-color: #04AA6D;
+          color: white;
+          margin-top: 1.5em;
+          padding: 1em 2em;
+          border: none;
+          border-radius: 1em;
+          cursor: pointer;
+      }
+
+      input[type=submit]:hover {
+          color: white;
+          background-color: black;
+      }
+
+      #country {
+          font-size: 0.7em;
+      }
+
+      .label-text {
+          font-size: 0.7em;
       }
 
   }
